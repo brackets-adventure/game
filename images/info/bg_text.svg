@@ -22,6 +22,11 @@
      id="defs2">
     <pattern
        inkscape:collect="always"
+       xlink:href="#pattern4670"
+       id="pattern2010"
+       patternTransform="matrix(0.26388808,0,0,0.26093897,-93.133395,451.51665)" />
+    <pattern
+       inkscape:collect="always"
        xlink:href="#pattern4433"
        id="pattern4670"
        patternTransform="matrix(0.26388808,0,0,0.26093897,-94.970013,59.672744)" />
@@ -177,9 +182,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.50000001"
-     inkscape:cx="1520"
-     inkscape:cy="-567.99999"
+     inkscape:zoom="0.125"
+     inkscape:cx="599.99999"
+     inkscape:cy="1744"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -193,9 +198,9 @@
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:snap-grids="true"
+     inkscape:snap-grids="false"
      inkscape:snap-intersection-paths="true"
-     inkscape:snap-global="false"
+     inkscape:snap-global="true"
      inkscape:object-paths="false"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -237,9 +242,9 @@
        width="508"
        id="rect4429"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.441279;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\2. www\50. brackets_adventure\brackets_adventure\images\info\bg6.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\2. www\50. brackets_adventure\brackets_adventure\images\info\bg7.png"
+       inkscape:export-xdpi="150.04445"
+       inkscape:export-ydpi="150.04445" />
     <rect
        style="opacity:1;fill:url(#pattern4670);stroke:none;stroke-width:0.26241"
        width="508"
@@ -247,9 +252,9 @@
        x="-94.969948"
        y="59.672741"
        id="rect4431"
-       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\2. www\50. brackets_adventure\brackets_adventure\images\info\bg6.png"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\2. www\50. brackets_adventure\brackets_adventure\images\info\bg7.png"
+       inkscape:export-xdpi="150.04445"
+       inkscape:export-ydpi="150.04445" />
     <g
        clip-path="url(#clipPath7894)"
        transform="matrix(0.87682163,0,0,0.87682163,-847.03579,-1487.792)"
@@ -823,5 +828,25 @@
        x="-35.45417"
        y="-63.891682"
        ry="19.579166" />
+    <rect
+       y="451.51663"
+       x="-93.133331"
+       height="446.4841"
+       width="793.74982"
+       id="rect2006"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.689498;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\2. www\50. brackets_adventure\brackets_adventure\images\info\bg7.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:url(#pattern2010);stroke:none;stroke-width:0.26241"
+       width="793.74976"
+       height="446.4841"
+       x="-93.133331"
+       y="451.51663"
+       id="rect2008"
+       inkscape:export-filename="D:\1\Яндекс Диск\YandexDisk\1\2. www\50. brackets_adventure\brackets_adventure\images\info\bg7.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
   </g>
 </svg>
