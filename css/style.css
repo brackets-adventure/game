@@ -163,10 +163,10 @@ body {
 }
 
 .menu__link:hover {
-/*	color: #CB0E0E;*/
+	/*	color: #CB0E0E;*/
 	color: #159638;
 	transform: scale(1.2);
-/*	background-color: #000;*/
+	/*	background-color: #000;*/
 	background-color: #fff;
 }
 
@@ -401,12 +401,18 @@ a.header__btn:hover {
 
 .files {
 	display: flex;
-	-ms-align-items: center;
-	align-items: center;
+	/*	align-items: center;*/
+	flex-wrap: wrap;
+/*	flex-direction: column;*/
 }
 
 .download__inner > *:not(:last-child) {
 	margin-bottom: 20px;
+}
+
+.download__wrapper {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .download h3 {
@@ -417,7 +423,9 @@ a.header__btn:hover {
 .download-title {
 	display: block;
 	min-width: 160px;
-	padding: 5px;
+/*	padding: 5px;*/
+	margin-right: 20px;
+	margin-bottom: 10px;
 }
 
 .download {
@@ -434,13 +442,18 @@ a.header__btn:hover {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-left: 50px;
+	/*	margin-left: 0px;*/
 	padding: 10px;
+	/*	flex-wrap: wrap;*/
 	border: 1px solid #fff;
-	minwidth: 150px;
+	/*	min-width: 150px;*/
 	border-radius: 3px;
 	transition: all .2s linear;
 	/*	background-color: #159638;*/
+}
+
+.link:not(:first-child) {
+	margin-left: 20px;
 }
 
 
@@ -609,9 +622,9 @@ a.header__btn:hover {
 .footer__menu-link,
 .footer__links-link {
 	display: block;
-/*	padding: 5px 5px 5px 5px;*/
-/*	border-left: 4px solid rgba(255, 255, 255, 0);*/
-/*	border-bottom: 4px solid rgba(255, 255, 255, 0);*/
+	/*	padding: 5px 5px 5px 5px;*/
+	/*	border-left: 4px solid rgba(255, 255, 255, 0);*/
+	/*	border-bottom: 4px solid rgba(255, 255, 255, 0);*/
 	/*	text-decoration: underline;*/
 }
 
@@ -1064,22 +1077,25 @@ audio {
 		margin-right: 0;
 		width: 100%;
 	}
-	
+
 	.footer__menu-item,
-	.footer__links-item{
+	.footer__links-item {
 		width: 150px;
 	}
-	
+
 
 	.footer__menu {
-/*		margin-bottom: 50px;*/
+		/*		margin-bottom: 50px;*/
 		margin-left: 0;
 	}
 
 }
 
 @media (max-width: 505px) {
-
+	
+	.files {
+		flex-direction: column;
+	}
 	.special-offer__newprice {
 		font-size: 34px;
 	}
